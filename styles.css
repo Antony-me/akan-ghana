@@ -14,8 +14,10 @@ nav {color: inherit;
 }
 nav>ul {
     background-color:cadetblue ;
-    width: 500px;
+    width: 550px;
+    margin: auto;
     text-align: right;
+    font-size: 1.5em;
 }
 nav>ul>li {
     display: inline-block;
@@ -28,7 +30,7 @@ nav ul li a {
 }
 nav>ul>li>a:hover {
     color: whitesmoke;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
     background:#0B3954;
 }

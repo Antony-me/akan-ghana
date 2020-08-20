@@ -12,10 +12,13 @@ nav {color: inherit;
 nav>ul {
     background-color:cadetblue ;
     width: 500px;
+    margin: auto;
     text-align: right;
+    font-size: 1.5em;
 }
 nav>ul>li {
     display: inline-block;
+    border: 2px solid black;
 }
 nav ul li a {
     padding: 10px;
@@ -25,8 +28,7 @@ nav ul li a {
 }
 nav>ul>li>a:hover {
     color: whitesmoke;
-    text-transform: uppercase;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
     background:#0B3954;
 }
 .container .card .card-body{
@@ -35,20 +37,16 @@ nav>ul>li>a:hover {
     flex-wrap: wrap;
     
     justify-content: start;
-    /* overflow: scroll; */
 }
 .about{
     flex-direction: row;
     background-color: #9DF7E5;;
 }
-.about img{
+.history img,.about img{
     width: 100%;
 } 
  .history{
     background-color:#9DF7E5;
-}
-.history img{
-    width: 100%;
 }
 .gallary{
     border-top: 20px solid wheats;
