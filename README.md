@@ -1,6 +1,6 @@
 # {Akan Name Generator}
-#### {A web application that asks for a user's birthday and then generates the day of the week they were born and then depending on their gender it prints their Akan Name. The Akan people of Ghana name their children after the day of the week they were born and the order in which they were born. These "day names" has a much deeper meaning, because the day on which a person was born has about the similar significance as in the western hemisphere the assignment to a sign of the zodiac}, {Thursday 20th 2020}
-#### By **{List of contributors}**
+#### {A web application that asks for a user's birthday and then generates the day of the week they were born and then depending on their gender it prints their Akan Name. The Akan people of Ghana name their children after the day of the week they were born and the order in which they were born. These "day names" has a much deeper meaning, because the day on which a person was born has about the similar significance as in the western hemisphere the assignment to a sign of the zodiac},
+{Thursday 20th 2020}
 ## Description
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
