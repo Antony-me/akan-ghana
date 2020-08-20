@@ -1,6 +1,6 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url("images/ankara.jpg");
+    background-image: url("images/ankarra.jpg");
     background-repeat: repeats;
     margin-top: 10px;
     color:#0B3954;
@@ -56,7 +56,4 @@ nav>ul>li>a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: stretch;
-}
-.gallary img{
-  
 }
