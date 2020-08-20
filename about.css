@@ -12,13 +12,10 @@ nav {color: inherit;
 nav>ul {
     background-color:cadetblue ;
     width: 500px;
-    margin: auto;
     text-align: right;
-    font-size: 1.5em;
 }
 nav>ul>li {
     display: inline-block;
-    border: 2px solid black;
 }
 nav ul li a {
     padding: 10px;
@@ -28,7 +25,8 @@ nav ul li a {
 }
 nav>ul>li>a:hover {
     color: whitesmoke;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
     background:#0B3954;
 }
 .container .card .card-body{
