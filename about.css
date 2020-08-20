@@ -57,3 +57,12 @@ nav>ul>li>a:hover {
     flex-wrap: wrap;
     justify-content: stretch;
 }
+div.figure {
+    float: right;
+    font-family: inherit;
+    font-style: italic;
+    font-size: inherit;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+  }
