@@ -1,0 +1,30 @@
+body{
+
+}
+.container .card .card-body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: start;
+    /* overflow: scroll; */
+}
+.about{
+    flex-direction: column;
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 251, 0);
+} 
+ .history{
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    background-color:red;
+}
+.gallary{
+    border: 2px solid black;
+    width: 1000px;
+    height: 400px;
+    background-color: green;
+}
