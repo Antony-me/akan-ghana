@@ -44,7 +44,6 @@ nav>ul>li>a:hover {
     background-color:rgb(112, 107, 107);
     display: flex;
     flex-wrap: wrap;
-    justify-content: stretch;
 }
 div.figure {
     float: right;
