@@ -18,15 +18,15 @@ function getAkanName(){
         for(var i=0;i<myGender.length;i++){
             if(myGender[i].checked){
                 if(myGender[i].value === "Male"){
-                    document.getElementById('message').innerHTML = "<span><i class=\"fa fa-male\"></i></span>&nbsp;&nbsp; You were born on a <span>" + days[dayOfTheWeek] + "</span>, So Your Akan Name is<span>" + maleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML = "You were born on a " + days[dayOfTheWeek] + " So Your Akan Name is " + maleAkanNames[dayOfTheWeek] + "</span>";
                 }
                 else {
-                    document.getElementById('message').innerHTML = "<span><i class=\"fa fa-female\"></i></span>&nbsp;&nbsp; You were born on a<span>" + days[dayOfTheWeek] + "</span>, so Your Akan Name is <span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML = "You were born on a " + days[dayOfTheWeek] +  "so Your Akan Name is " + femaleAkanNames[dayOfTheWeek] + "</span>";
                 }
                 break;
             }    
             else {
-                document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Sorry But</strong> Gender is Required.</div>";
+                document.getElementById('message').innerHTML = "<strong>Sorry But Gender is Required.</strong>";
             }
         }
     }
