@@ -1,27 +1,26 @@
-$(document).ready(function(){
-    $("#myBirthDate").mask("99/99/9999");
-});
+
 
 
 function getAkanName(){
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var maleAkanNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
     var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+    var myName = document.getElementById("myName").value;
     var myBirthday = document.getElementById("myBirthDate").value;
     var myGender = document.getElementsByName("gender");
     var dateOfBirth = new Date(myBirthday);
     var dayOfTheWeek = dateOfBirth.getDay();
     if(myBirthday === ""){
-        document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
+        document.getElementById('message').innerHTML = "<strong> Oops!!!You Didn't Submit a Valid Date!</div>";
     }
     else {
         for(var i=0;i<myGender.length;i++){
             if(myGender[i].checked){
                 if(myGender[i].value === "Male"){
-                    document.getElementById('message').innerHTML = "You were born on a " + days[dayOfTheWeek] + " So Your Akan Name is " + maleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML = "Hey " + myName + ", You were born on a " + days[dayOfTheWeek] + " So Your Akan Name is " + maleAkanNames[dayOfTheWeek] + "</span>";
                 }
                 else {
-                    document.getElementById('message').innerHTML = "You were born on a " + days[dayOfTheWeek] +  "so Your Akan Name is " + femaleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML = "hey "  + myName + ", You were born on a " + days[dayOfTheWeek] +  "so Your Akan Name is " + femaleAkanNames[dayOfTheWeek] + "</span>";
                 }
                 break;
             }    
