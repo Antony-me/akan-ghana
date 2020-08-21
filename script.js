@@ -1,6 +1,4 @@
 
-
-
 function getAkanName(){
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var maleAkanNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
@@ -17,20 +15,20 @@ function getAkanName(){
         for(var i=0;i<myGender.length;i++){
             if(myGender[i].checked){
                 if(myGender[i].value === "Male"){
-                    document.getElementById('message').innerHTML = "Hey " + myName + ", You were born on a " + days[dayOfTheWeek] + " So Your Akan Name is " + maleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('report').innerHTML = `Hey  ${myName},  You were born on a  ${days[dayOfTheWeek]}  So Your Akan Name is ${maleAkanNames[dayOfTheWeek]}</span>`;
                 }
                 else {
-                    document.getElementById('message').innerHTML = "hey "  + myName + ", You were born on a " + days[dayOfTheWeek] +  "so Your Akan Name is " + femaleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('report').innerHTML = `Hey ${myName}, You were born on a ${days[dayOfTheWeek]} so Your Akan Name is ${femaleAkanNames[dayOfTheWeek]}</span>`;
                 }
                 break;
             }    
             else {
-                document.getElementById('message').innerHTML = "<strong>Sorry But Gender is Required.</strong>";
+                document.getElementById('report').innerHTML = "<strong>Sorry But Gender is Required.</strong>";
             }
         }
     }
 }
 
 function clearAkanMessage(){
-    document.getElementById('message').innerHTML = "";
+    document.getElementById('report').innerHTML = "";
 }
