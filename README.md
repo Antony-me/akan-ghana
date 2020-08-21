@@ -1,21 +1,60 @@
-# {Akan Name Generator}
-#### {A web application that asks for a user's birthday and then generates the day of the week they were born and then depending on their gender it prints their Akan Name. The Akan people of Ghana name their children after the day of the week they were born and the order in which they were born. These "day names" has a much deeper meaning, because the day on which a person was born has about the similar significance as in the western hemisphere the assignment to a sign of the zodiac},
-{Thursday 20th 2020}
-## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
-## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
-## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+# Akan-Names
+
+A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+
+![Akan home](images/akanhome.png)
+![Akan Gallary](images/akangalla.png)
+![Akan Name Generator](images/akangenerator.png)
+
+
+
+
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
-## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
-### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+- HTML & CSS (Bootstrap)
+- JavaScript (jQuery 3.4.1)
+
+##### Requirements
+
+JavaScript Console
+
+##### Setup Instructions and Installation
+
+- Clone the repository to a directory in you computer. Link to repo https://github.com/Antony-me/akan-ghana 
+- Git init, git clone https://github.com/Antony-me/akan-ghana 
+- Open terminal command line then navigate to the directory and open your using your favorite text editor.
+- Open `index.html` on your Browser.
+
+
+## Interactive Input
+
+1. Displays Form For Entering Name, Date and Gender.
+   - INPUT: "User Name
+   - INPUT: "Users BirthDate in format mm/dd/yyyy"
+   - INPUT: "User's Gender Entered"
+   - OUTPUT: "Displays User's Name together with his Akan Name"
+2. Displays an Error Message if Date Input Left Blank
+   - INPUT: ""
+   - OUTPUT: "Displays Error Message"
+3. Displays an Error Message if Gender Not Chosen
+   - INPUT: "" 
+   - OUTPUT: "Display an Error Message" 
+4. Clears Form and Reset the Message on Click
+   - INPUT: "Click Reset Button" 
+   - OUTPUT: "Clears and Resets the Form"
+
+## Development
+
+Join me in improving this application.
+
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch (git checkout -b improve-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve feature')
+- Push to the branch (git push origin improve-feature)
+- Create a Pull Request
+
+
+##### Link to Live Site : https://antony-me.github.io/akan-ghana/
+
