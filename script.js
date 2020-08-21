@@ -13,7 +13,6 @@ function getAkanName(){
     var dayOfTheWeek = dateOfBirth.getDay();
     if(myBirthday === ""){
         document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
-        // $('#message').addClass("animated shake");
     }
     else {
         for(var i=0;i<myGender.length;i++){
