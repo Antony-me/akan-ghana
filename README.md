@@ -4,7 +4,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ![Akan home](images/akanhome.png)
 ![Akan Gallary](images/akangalla.png)
-![Akan Name Generator](images/akangenerator.png)
+![Akan Name Generator](images/akangenerator1.png)
 
 
 
