@@ -9,7 +9,7 @@ function getAkanName(){
     var dateOfBirth = new Date(myBirthday);
     var dayOfTheWeek = dateOfBirth.getDay();
     if(myBirthday === ""){
-        document.getElementById('message').innerHTML = "<strong> Oops!!!You Didn't Submit a Valid Date!</div>";
+        document.getElementById('report').innerHTML = "<strong> Oops!!!You Didn't Submit a Valid Date!</div>";
     }
     else {
         for(var i=0;i<myGender.length;i++){
