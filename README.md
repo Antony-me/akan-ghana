@@ -11,7 +11,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ## Technologies Used
 - HTML & CSS (Bootstrap)
-- JavaScript 
+- JavaScript
 
 ##### Requirements
 
