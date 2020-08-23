@@ -30,5 +30,5 @@ function getAkanName(){
 }
 
 function clearAkanMessage(){
-    document.getElementById('message').innerHTML = "";
+    document.getElementById("message").innerHTML = "";
 }
