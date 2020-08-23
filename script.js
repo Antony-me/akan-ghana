@@ -9,16 +9,16 @@ function getAkanName(){
     var dateOfBirth = new Date(myBirthday);
     var dayOfTheWeek = dateOfBirth.getDay();
     if(myBirthday === ""){
-        document.getElementById('report').innerHTML = "<strong> Oops!!!You Didn't Submit a Valid Date!</div>";
+        document.getElementById('report').innerHTML = "<strong> Oops!!!You Didn't Submit a Valid Date!</strong>";
     }
     else {
         for(var i=0;i<myGender.length;i++){
             if(myGender[i].checked){
                 if(myGender[i].value === "Male"){
-                    document.getElementById('report').innerHTML = `Hey  ${myName},  You were born on a  ${days[dayOfTheWeek]}  So Your Akan Name is ${maleAkanNames[dayOfTheWeek]}</span>`;
+                    document.getElementById('report').innerHTML = `Hey  ${myName},  You were born on a  ${days[dayOfTheWeek]}  So Your Akan Name is ${maleAkanNames[dayOfTheWeek]}`;
                 }
                 else {
-                    document.getElementById('report').innerHTML = `Hey ${myName}, You were born on a ${days[dayOfTheWeek]} so Your Akan Name is ${femaleAkanNames[dayOfTheWeek]}</span>`;
+                    document.getElementById('report').innerHTML = `Hey ${myName}, You were born on a ${days[dayOfTheWeek]} so Your Akan Name is ${femaleAkanNames[dayOfTheWeek]}`;
                 }
                 break;
             }    
